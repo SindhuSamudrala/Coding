@@ -1,0 +1,16 @@
+User Email Labels
+Find the number emails received by each user under each built-in email label. The email labels are: 'Promotion', 'Social', and 'Shopping'.
+https://platform.stratascratch.com/coding-question?id=10068&python=
+
+WITH cte as
+(SELECT DISTINCT to_user, label, count(1) as cnt
+FROM google_gmail_emails gge JOIN google_gmail_labels ggl
+ON gge.id = ggl.email_id
+GROUP BY to_user, label)
+
+SELECT to_user,
+        SUM(CASE WHEN label = 'Promotion' THEN cnt ELSE 0 END) AS Promotion,
+        SUM(CASE WHEN label = 'Social' THEN cnt ELSE 0 END)AS Social,
+        SUM(CASE WHEN label = 'Shopping' THEN cnt ELSE 0 END)AS Shopping
+FROM cte
+GROUP BY to_user
