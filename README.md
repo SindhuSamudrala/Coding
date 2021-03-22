@@ -19,3 +19,13 @@ https://leetcode.com/problems/department-top-three-salaries/
 By using the concept of the window function. Firstly the employee table is partitioned by the department and ordered based on salary in descending order and then using the dense_rank() function rank is given and then join is performed on the department table to know the department name and only 3 records are printed from each department.
 ![image](https://user-images.githubusercontent.com/63176075/111893182-0d02a200-89be-11eb-961d-900aa440dfad.png)
 
+Day 14:
+Finding the number of emails in each label such as 'Promotion', 'Social', 'Shopping, etc.
+
+https://platform.stratascratch.com/coding-question?id=10068&python=
+Using the case statement and finding the count of emails under each label and performing the GROUP BY to get the individual user values.
+
+
+![image](https://user-images.githubusercontent.com/63176075/111948223-12ceb500-8a9c-11eb-8875-60579ea97eea.png)
+
+
