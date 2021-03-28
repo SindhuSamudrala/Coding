@@ -28,4 +28,12 @@ Using the case statement and finding the count of emails under each label and pe
 
 ![image](https://user-images.githubusercontent.com/63176075/111948223-12ceb500-8a9c-11eb-8875-60579ea97eea.png)
 
+Day18:
+Today it's a Leetcode problem from March Month Challenge. 
+
+Words Subsets. Two lists of words are given as input. The first list is the list of words and the Second list is a list of words or letters which can be a subset of words present in the first list.
+![image](https://user-images.githubusercontent.com/63176075/112742548-67fb4280-8f44-11eb-8252-9b52d9c78d5a.png)
+
+
+
 
