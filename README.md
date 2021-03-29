@@ -34,6 +34,19 @@ Today it's a Leetcode problem from March Month Challenge.
 Words Subsets. Two lists of words are given as input. The first list is the list of words and the Second list is a list of words or letters which can be a subset of words present in the first list.
 ![image](https://user-images.githubusercontent.com/63176075/112742548-67fb4280-8f44-11eb-8252-9b52d9c78d5a.png)
 
+Day19:
+SQL query to get the share of active users of Facebook in the USA.
+
+https://platform.stratascratch.com/coding-question?id=2005&python=
+
+Using the case and where statement finding the number of active users in the USA 
+compare it with the total number of users.
+I found a good article about the CASE statement. In the below query we are using a CASE statement and performing an aggregation.
+https://www.quest.com/community/blogs/b/database-management/posts/sql-case-statement-what-is-it-and-what-are-the-best-ways-to-use-it
+
+![image](https://user-images.githubusercontent.com/63176075/112795934-19ba7200-901e-11eb-988b-fb55df5b9a40.png)
+
+
 
 
 
